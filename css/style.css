@@ -1,0 +1,32 @@
+body {
+  background-color: #aed8de;
+  font-family: "Figtree", sans-serif;
+
+  margin: 0;
+}
+
+.header-container {
+  background-color: #4db56f;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+}
+
+select {
+  display: block;
+  margin: 0px auto;
+  background-color: #4db56f;
+  width: 20%;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid white;
+  font-family: "Figtree", sans-serif;
+  font-size: 15px;
+  color: white;
+}

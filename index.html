@@ -3,50 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>World Clock</title>
   </head>
   <body>
-    <header>
-      <h1>World Clock</h1>
-      <select name="" id="">
-        <option>Select a city</option>
-        <option>Barcelona</option>
-        <option>Buenos Aires</option>
-        <option>Miami</option>
-        <option>Paris</option>
-      </select>
-    </header>
-
-    <main>
-      <div class="city-card">
-        <div class="date">
-          <div class="date-number">15</div>
-          <div class="date-month">SEP</div>
+    <div class="container">
+      <header>
+        <div class="header-container">
+          <h1>World Clock</h1>
+          <select name="" id="">
+            <option>Select a city</option>
+            <option>Barcelona</option>
+            <option>Buenos Aires</option>
+            <option>Miami</option>
+            <option>Paris</option>
+          </select>
         </div>
-        <div class="city-name">Barcelona</div>
-        <div class="time">20:30 H.</div>
-      </div>
+      </header>
 
-      <div class="city-card">
-        <div class="date">
-          <div class="date-number">15</div>
-          <div class="date-month">SEP</div>
+      <main>
+        <div class="city-card">
+          <div class="date">
+            <div class="date-number">15</div>
+            <div class="date-month">SEP</div>
+          </div>
+          <div class="city-name">Barcelona</div>
+          <div class="time">20:30 H.</div>
         </div>
-        <div class="city-name">Buenos Aires</div>
-        <div class="time">20:30 H.</div>
-      </div>
-    </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/florencia-persichini" target="_blank">Florencia Persichini</a>
-      and is
-      <a href="http://github.com/florencia-persichini/clocks" target="_blank"> open-sourced on GitHub</a>
-      and
-      <a href="https://random-clocks.netlify.app/" target="_blank">hosted on Netlify</a>
-    </footer>
+        <div class="city-card">
+          <div class="date">
+            <div class="date-number">15</div>
+            <div class="date-month">SEP</div>
+          </div>
+          <div class="city-name">Buenos Aires</div>
+          <div class="time">20:30 H.</div>
+        </div>
+      </main>
 
+      <footer>
+        This project was coded by
+        <a href="https://github.com/florencia-persichini" target="_blank">Florencia Persichini</a>
+        and is
+        <a href="http://github.com/florencia-persichini/clocks" target="_blank"> open-sourced on GitHub</a>
+        and
+        <a href="https://random-clocks.netlify.app/" target="_blank">hosted on Netlify</a>
+      </footer>
+    </div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
