@@ -45,6 +45,7 @@ function displayCityTime(event) {
             <div class="city-name">${cityName}</div>
             <div class="time">${cityTime.format("HH:mm:ss")}</div>
           </div>
+          <a href="/" class="back">← Back</a>
   `;
 }
 

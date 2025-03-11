@@ -90,4 +90,10 @@ footer {
 a {
   color: #4db56f;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
 }
